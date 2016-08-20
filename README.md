@@ -1,10 +1,12 @@
 # Compression-Tool
 一个实现压缩和解压缩文件的代码。
 
-编译环境：Ubuntu g++
+### 编译环境：
+
+Ubuntu g++
 
 
-用法：
+### 用法：
 
 <pre>
 ~$ make
@@ -12,8 +14,7 @@
 ~$ ./Compression -d input_file output_file //解压文件
 </pre>
 
-
-代码的思路：
+### 代码思路：
 
 利用两个有序队列构造huffman编码；
 压缩后的文件分为记录信息的header和主文件body，将以下信息储存在header中：
