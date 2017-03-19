@@ -22,7 +22,7 @@ We record the Huffman tree in the header of the output file, such as the number 
 
 # 文件压缩器和解压缩器
 
-一个实现压缩和解压缩文件的程序。
+一个实现压缩和解压缩文件的程序
 
 ### 编译环境：
 
