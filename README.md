@@ -10,8 +10,8 @@ Ubuntu g++
 
 <pre>
 ~$ make
-~$ ./Compression input_file output_file //压缩文件
-~$ ./Compression -d input_file output_file //解压文件
+~$ ./Compression input_file output_file //Compress
+~$ ./Compression -d input_file output_file //Decompress
 </pre>
 
 ### Main idea
