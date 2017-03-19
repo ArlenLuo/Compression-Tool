@@ -1,10 +1,32 @@
 # Compression-Tool
-一个实现压缩和解压缩文件的代码。
+
+A program used to compress file and decompress file
+
+### Compiler
+
+Ubuntu g++
+
+### Usage
+
+<pre>
+~$ make
+~$ ./Compression input_file output_file //压缩文件
+~$ ./Compression -d input_file output_file //解压文件
+</pre>
+
+### Main idea
+
+We use two sorted queues to do Huffman coding of the file.
+
+We record the Huffman tree in the header of the output file, such as the number of leaves, the infomation of each leaf and the shape of the Huffman tree.
+
+# 文件压缩器和解压缩器
+
+一个实现压缩和解压缩文件的程序。
 
 ### 编译环境：
 
 Ubuntu g++
-
 
 ### 用法：
 
